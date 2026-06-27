@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+h1 { color: #333; text-align: center; }
+
+ul { list-style: none; padding: 0; }
+
+li {
+    background: #e7f3ff;
+    border-left: 5px solid #2196F3;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 4px;
+    color: #333;
+    font-weight: bold;
+}
+body { font-family: sans-serif; display: flex; justify-content: center; padding: 50px; background: #f4f4f4; }
+.container { background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); width: 400px; }
+.input-group { display: flex; gap: 10px; margin-bottom: 20px; }
+input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 8px; }
+button { padding: 10px 20px; background: #4a7c9d; color: white; border: none; border-radius: 8px; cursor: pointer; }
+ul { list-style: none; padding: 0; }
+li { background: #fff; padding: 15px; border: 1px solid #eee; margin-bottom: 10px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+/* style.css */
+.container { max-width: 400px; margin: 50px auto; font-family: sans-serif; }
+.input-group { display: flex; gap: 10px; margin-bottom: 20px; }
+input { flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 5px; }
+button { padding: 10px 15px; background: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; }
+button:hover { background: #0056b3; }
+
+#daftar-tugas { list-style: none; padding: 0; }
+.task-item { 
+    background: #f9f9f9; 
+    padding: 12px; 
+    margin-bottom: 8px; 
+    border-radius: 5px; 
+    border-left: 5px solid #007bff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.status { color: #555; font-size: 0.9em; font-style: italic; }

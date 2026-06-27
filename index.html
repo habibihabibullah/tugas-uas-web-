@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAS Web Programming</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="manifest.json">
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js')
+          .then(() => console.log('Service Worker terdaftar!'))
+          .catch(err => console.log('Gagal daftar SW:', err));
+      }
+    </script>
+</head>
+
+<body>
+    <div class="container"> 
+        <h1>Daftar Tugas</h1>
+        
+        <div class="input-group">
+            <input type="text" id="taskInput" placeholder="Tambah tugas baru...">
+            <button onclick="addTask()">Tambah</button>
+        </div>
+
+        <ul id="daftar-tugas"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
